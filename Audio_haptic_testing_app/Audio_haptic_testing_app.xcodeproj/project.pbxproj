@@ -13,8 +13,6 @@
 		C9E84B902B71313C002213D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E84B8E2B71313C002213D3 /* Main.storyboard */; };
 		C9E84B922B71313D002213D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E84B912B71313D002213D3 /* Assets.xcassets */; };
 		C9E84B952B71313D002213D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E84B932B71313D002213D3 /* LaunchScreen.storyboard */; };
-		C9E84BA02B71404F002213D3 /* PeerNotificationSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E84B9F2B71404F002213D3 /* PeerNotificationSound.mp3 */; };
-		C9E84BA22B714105002213D3 /* Zoom_Click_2ndVersion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E84BA12B714105002213D3 /* Zoom_Click_2ndVersion.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +24,6 @@
 		C9E84B912B71313D002213D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9E84B942B71313D002213D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9E84B962B71313D002213D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9E84B9F2B71404F002213D3 /* PeerNotificationSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PeerNotificationSound.mp3; sourceTree = "<group>"; };
-		C9E84BA12B714105002213D3 /* Zoom_Click_2ndVersion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Zoom_Click_2ndVersion.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +71,6 @@
 		C9E84B9C2B71347B002213D3 /* Sound */ = {
 			isa = PBXGroup;
 			children = (
-				C9E84BA12B714105002213D3 /* Zoom_Click_2ndVersion.mp3 */,
-				C9E84B9F2B71404F002213D3 /* PeerNotificationSound.mp3 */,
 			);
 			path = Sound;
 			sourceTree = "<group>";
@@ -141,8 +135,6 @@
 			files = (
 				C9E84B952B71313D002213D3 /* LaunchScreen.storyboard in Resources */,
 				C9E84B922B71313D002213D3 /* Assets.xcassets in Resources */,
-				C9E84BA02B71404F002213D3 /* PeerNotificationSound.mp3 in Resources */,
-				C9E84BA22B714105002213D3 /* Zoom_Click_2ndVersion.mp3 in Resources */,
 				C9E84B902B71313C002213D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
