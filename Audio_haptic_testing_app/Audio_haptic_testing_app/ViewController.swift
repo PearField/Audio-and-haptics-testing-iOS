@@ -11,7 +11,7 @@ import AVFoundation
 class ViewController: UIViewController {
     
     var sound = AVAudioPlayer()
-    let testSounds = ["",]
+    let testSounds = ["Zoom_Click_3rdVersion", "Zoom_Click_2ndVersion"]
     var soundInList = ""
     
     let hapticType = ["light impact", "medium impact", "heavy impact", "soft", "rigid", "success notification", "error notification", "warning notification",
