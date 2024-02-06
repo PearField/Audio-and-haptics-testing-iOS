@@ -11,7 +11,7 @@ import AVFoundation
 class ViewController: UIViewController {
     
     var sound = AVAudioPlayer()
-    let testSounds = ["PeerNotificationSound", "Zoom_Click_2ndVersion"]
+    let testSounds = ["",]
     var soundInList = ""
     
     let hapticType = ["light impact", "medium impact", "heavy impact", "soft", "rigid", "success notification", "error notification", "warning notification",
@@ -105,6 +105,8 @@ class ViewController: UIViewController {
         }
         
     }
+    
+    
 }
 
 extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource {
