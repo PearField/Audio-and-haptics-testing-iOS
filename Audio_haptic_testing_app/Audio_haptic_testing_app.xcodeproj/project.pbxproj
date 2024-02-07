@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9650A242B7297700067C44A /* RenameGroup01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9650A232B7297700067C44A /* RenameGroup01.mp3 */; };
+		C9650A262B7298000067C44A /* RenameGroup02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9650A252B7298000067C44A /* RenameGroup02.mp3 */; };
 		C983F1412B7211D8003B62CE /* Zoom_Click_3rdVersion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C983F1402B7211D8003B62CE /* Zoom_Click_3rdVersion.mp3 */; };
+		C9C6E9DB2B735C810063BB84 /* NextButton_Compressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9C6E9DA2B735C810063BB84 /* NextButton_Compressed.mp3 */; };
+		C9C6E9DD2B735E420063BB84 /* SelectButton_simple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9C6E9DC2B735E420063BB84 /* SelectButton_simple.mp3 */; };
+		C9C6E9DF2B7369C20063BB84 /* Sound_SendMessage01_Compressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9C6E9DE2B7369C20063BB84 /* Sound_SendMessage01_Compressed.mp3 */; };
+		C9C6E9E12B7369C90063BB84 /* Sound_SendMessage03_Compressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9C6E9E02B7369C90063BB84 /* Sound_SendMessage03_Compressed.mp3 */; };
+		C9C6E9E52B736AB30063BB84 /* Sound_RecieveMessage01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9C6E9E22B736AB30063BB84 /* Sound_RecieveMessage01.mp3 */; };
+		C9C6E9E62B736AB30063BB84 /* Sound_RecieveMessage03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9C6E9E32B736AB30063BB84 /* Sound_RecieveMessage03.mp3 */; };
+		C9C6E9E72B736AB30063BB84 /* Sound_RecieveMessage02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9C6E9E42B736AB30063BB84 /* Sound_RecieveMessage02.mp3 */; };
+		C9C6E9E92B736D4C0063BB84 /* SelectButton_simple02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9C6E9E82B736D4C0063BB84 /* SelectButton_simple02.mp3 */; };
 		C9E62C0A2B716EF800B976E6 /* Zoom_Click_2ndVersion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E62C092B716EF800B976E6 /* Zoom_Click_2ndVersion.mp3 */; };
 		C9E84B892B71313C002213D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E84B882B71313C002213D3 /* AppDelegate.swift */; };
 		C9E84B8B2B71313C002213D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E84B8A2B71313C002213D3 /* SceneDelegate.swift */; };
@@ -18,7 +28,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9650A232B7297700067C44A /* RenameGroup01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RenameGroup01.mp3; sourceTree = "<group>"; };
+		C9650A252B7298000067C44A /* RenameGroup02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RenameGroup02.mp3; sourceTree = "<group>"; };
 		C983F1402B7211D8003B62CE /* Zoom_Click_3rdVersion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Zoom_Click_3rdVersion.mp3; sourceTree = "<group>"; };
+		C9C6E9DA2B735C810063BB84 /* NextButton_Compressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NextButton_Compressed.mp3; sourceTree = "<group>"; };
+		C9C6E9DC2B735E420063BB84 /* SelectButton_simple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SelectButton_simple.mp3; sourceTree = "<group>"; };
+		C9C6E9DE2B7369C20063BB84 /* Sound_SendMessage01_Compressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound_SendMessage01_Compressed.mp3; sourceTree = "<group>"; };
+		C9C6E9E02B7369C90063BB84 /* Sound_SendMessage03_Compressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound_SendMessage03_Compressed.mp3; sourceTree = "<group>"; };
+		C9C6E9E22B736AB30063BB84 /* Sound_RecieveMessage01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound_RecieveMessage01.mp3; sourceTree = "<group>"; };
+		C9C6E9E32B736AB30063BB84 /* Sound_RecieveMessage03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound_RecieveMessage03.mp3; sourceTree = "<group>"; };
+		C9C6E9E42B736AB30063BB84 /* Sound_RecieveMessage02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound_RecieveMessage02.mp3; sourceTree = "<group>"; };
+		C9C6E9E82B736D4C0063BB84 /* SelectButton_simple02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SelectButton_simple02.mp3; sourceTree = "<group>"; };
 		C9E62C092B716EF800B976E6 /* Zoom_Click_2ndVersion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Zoom_Click_2ndVersion.mp3; sourceTree = "<group>"; };
 		C9E84B852B71313C002213D3 /* Audio_haptic_testing_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audio_haptic_testing_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E84B882B71313C002213D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +95,16 @@
 		C9E84B9C2B71347B002213D3 /* Sound */ = {
 			isa = PBXGroup;
 			children = (
+				C9C6E9E22B736AB30063BB84 /* Sound_RecieveMessage01.mp3 */,
+				C9C6E9E42B736AB30063BB84 /* Sound_RecieveMessage02.mp3 */,
+				C9C6E9E32B736AB30063BB84 /* Sound_RecieveMessage03.mp3 */,
+				C9C6E9DE2B7369C20063BB84 /* Sound_SendMessage01_Compressed.mp3 */,
+				C9C6E9E02B7369C90063BB84 /* Sound_SendMessage03_Compressed.mp3 */,
+				C9C6E9DC2B735E420063BB84 /* SelectButton_simple.mp3 */,
+				C9C6E9E82B736D4C0063BB84 /* SelectButton_simple02.mp3 */,
+				C9C6E9DA2B735C810063BB84 /* NextButton_Compressed.mp3 */,
+				C9650A252B7298000067C44A /* RenameGroup02.mp3 */,
+				C9650A232B7297700067C44A /* RenameGroup01.mp3 */,
 				C983F1402B7211D8003B62CE /* Zoom_Click_3rdVersion.mp3 */,
 				C9E62C092B716EF800B976E6 /* Zoom_Click_2ndVersion.mp3 */,
 			);
@@ -139,11 +169,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9650A262B7298000067C44A /* RenameGroup02.mp3 in Resources */,
 				C9E84B952B71313D002213D3 /* LaunchScreen.storyboard in Resources */,
+				C9C6E9E62B736AB30063BB84 /* Sound_RecieveMessage03.mp3 in Resources */,
+				C9C6E9DD2B735E420063BB84 /* SelectButton_simple.mp3 in Resources */,
+				C9C6E9E12B7369C90063BB84 /* Sound_SendMessage03_Compressed.mp3 in Resources */,
 				C983F1412B7211D8003B62CE /* Zoom_Click_3rdVersion.mp3 in Resources */,
+				C9C6E9E52B736AB30063BB84 /* Sound_RecieveMessage01.mp3 in Resources */,
+				C9C6E9DF2B7369C20063BB84 /* Sound_SendMessage01_Compressed.mp3 in Resources */,
 				C9E84B922B71313D002213D3 /* Assets.xcassets in Resources */,
+				C9650A242B7297700067C44A /* RenameGroup01.mp3 in Resources */,
 				C9E62C0A2B716EF800B976E6 /* Zoom_Click_2ndVersion.mp3 in Resources */,
+				C9C6E9DB2B735C810063BB84 /* NextButton_Compressed.mp3 in Resources */,
+				C9C6E9E72B736AB30063BB84 /* Sound_RecieveMessage02.mp3 in Resources */,
 				C9E84B902B71313C002213D3 /* Main.storyboard in Resources */,
+				C9C6E9E92B736D4C0063BB84 /* SelectButton_simple02.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
