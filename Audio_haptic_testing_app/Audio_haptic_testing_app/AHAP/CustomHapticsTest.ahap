@@ -1,0 +1,136 @@
+{
+  "Version" : 1,
+  "Metadata" : {
+    "Tags" : "",
+    "Created" : "",
+    "Title" : "",
+    "Description" : "",
+    "Project" : "My Project"
+  },
+  "Pattern" : [
+    {
+      "Event" : {
+        "EventParameters" : [
+          {
+            "ParameterValue" : 0.879,
+            "ParameterID" : "HapticIntensity"
+          }
+        ],
+        "EventType" : "HapticTransient",
+        "Time" : 0.494,
+        "Name" : "Haptic Event 0"
+      }
+    },
+    {
+      "Event" : {
+        "EventParameters" : [
+          {
+            "ParameterID" : "HapticIntensity",
+            "ParameterValue" : 0.896
+          },
+          {
+            "ParameterID" : "HapticSharpness",
+            "ParameterValue" : 0.081
+          },
+          {
+            "ParameterID" : "AttackTime",
+            "ParameterValue" : 0
+          },
+          {
+            "ParameterValue" : 1.9,
+            "ParameterID" : "DecayTime"
+          },
+          {
+            "ParameterValue" : 0,
+            "ParameterID" : "ReleaseTime"
+          },
+          {
+            "ParameterID" : "Sustained",
+            "ParameterValue" : 0
+          }
+        ],
+        "EventType" : "HapticContinuous",
+        "Name" : "Haptic Event 2",
+        "EventDuration" : 1.902,
+        "Time" : 0.501
+      }
+    },
+    {
+      "Event" : {
+        "EventDuration" : 2.117,
+        "Time" : 0.418,
+        "EventType" : "AudioCustom",
+        "EventParameters" : [
+          {
+            "ParameterValue" : 0,
+            "ParameterID" : "AttackTime"
+          },
+          {
+            "ParameterID" : "ReleaseTime",
+            "ParameterValue" : 0
+          },
+          {
+            "ParameterValue" : 1,
+            "ParameterID" : "AudioVolume"
+          }
+        ],
+        "Name" : "Haptic Event 3",
+        "EventWaveformPath" : "OnboardingFlow_EarthAnimation_Part1_Compressed.mp3"
+      }
+    },
+    {
+      "Event" : {
+        "EventParameters" : [
+          {
+            "ParameterValue" : 0.524,
+            "ParameterID" : "HapticIntensity"
+          },
+          {
+            "ParameterID" : "HapticSharpness",
+            "ParameterValue" : 0.051
+          },
+          {
+            "ParameterID" : "AttackTime",
+            "ParameterValue" : 0.499
+          }
+        ],
+        "Name" : "Haptic Event 4",
+        "EventDuration" : 0.498,
+        "EventType" : "HapticContinuous",
+        "Time" : 0.001
+      }
+    },
+    {
+      "Event" : {
+        "EventDuration" : 0.8169999999999999,
+        "Name" : "Haptic Event 4",
+        "EventType" : "AudioCustom",
+        "Time" : 1.12,
+        "EventWaveformPath" : "OnboardingFlow_EarthAnimation_Part2_Compressed.mp3",
+        "EventParameters" : [
+          {
+            "ParameterValue" : 0.773,
+            "ParameterID" : "AudioVolume"
+          }
+        ]
+      }
+    },
+    {
+      "Event" : {
+        "EventType" : "HapticTransient",
+        "Name" : "Haptic Event 5",
+        "Time" : 1.131,
+        "EventParameters" : [
+          {
+            "ParameterID" : "HapticIntensity",
+            "ParameterValue" : 0.585
+          },
+          {
+            "ParameterID" : "HapticSharpness",
+            "ParameterValue" : 0.025
+          }
+        ]
+      }
+    }
+  ]
+}

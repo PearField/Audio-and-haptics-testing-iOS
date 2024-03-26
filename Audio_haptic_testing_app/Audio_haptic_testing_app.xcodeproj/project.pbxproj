@@ -9,7 +9,20 @@
 /* Begin PBXBuildFile section */
 		C9650A242B7297700067C44A /* RenameGroup01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9650A232B7297700067C44A /* RenameGroup01.mp3 */; };
 		C9650A262B7298000067C44A /* RenameGroup02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9650A252B7298000067C44A /* RenameGroup02.mp3 */; };
+		C9662F222BB2BE0200D7B5B6 /* clicktest-01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9662F212BB2BE0200D7B5B6 /* clicktest-01.mp3 */; };
+		C9662F242BB2C2C800D7B5B6 /* clicktest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9662F232BB2C2C800D7B5B6 /* clicktest.mp3 */; };
 		C983F1412B7211D8003B62CE /* Zoom_Click_3rdVersion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C983F1402B7211D8003B62CE /* Zoom_Click_3rdVersion.mp3 */; };
+		C98B0D8F2B79202500A50D92 /* PeerNotificationSound02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C98B0D8E2B79202500A50D92 /* PeerNotificationSound02.mp3 */; };
+		C9969FC22B7B3B1B0052A598 /* ChatOptions_TrayMenu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9969FC12B7B3B1B0052A598 /* ChatOptions_TrayMenu.mp3 */; };
+		C99AB4F62B8893EE00040C1D /* OnboardingFlow_EarthAnimation_Part1_Compressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C99AB4F32B8893EE00040C1D /* OnboardingFlow_EarthAnimation_Part1_Compressed.mp3 */; };
+		C99AB4F72B8893EE00040C1D /* OnboardingFlow_EarthAnimation_Part2_Compressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C99AB4F42B8893EE00040C1D /* OnboardingFlow_EarthAnimation_Part2_Compressed.mp3 */; };
+		C99AB4F82B8893EE00040C1D /* CustomHapticsTest.ahap in Resources */ = {isa = PBXBuildFile; fileRef = C99AB4F52B8893EE00040C1D /* CustomHapticsTest.ahap */; };
+		C9A989792B79F1CB008F0888 /* PeerNotificationSound02_Mix01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9A989782B79F1CB008F0888 /* PeerNotificationSound02_Mix01.mp3 */; };
+		C9A9897B2B79F2C6008F0888 /* PeerNotificationSound02_Mix02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9A9897A2B79F2C6008F0888 /* PeerNotificationSound02_Mix02.mp3 */; };
+		C9A9897D2B79F416008F0888 /* PeerNotificationSound02_Mix03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9A9897C2B79F416008F0888 /* PeerNotificationSound02_Mix03.mp3 */; };
+		C9A9897F2B79F595008F0888 /* PeerNotificationSound02_Mix04.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9A9897E2B79F595008F0888 /* PeerNotificationSound02_Mix04.mp3 */; };
+		C9A989812B79F6C6008F0888 /* PeerNotificationSound03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9A989802B79F6C6008F0888 /* PeerNotificationSound03.mp3 */; };
+		C9AB90442B90A6FA00B8B64E /* moji_send.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9AB90432B90A6FA00B8B64E /* moji_send.mp3 */; };
 		C9C6E9DB2B735C810063BB84 /* NextButton_Compressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9C6E9DA2B735C810063BB84 /* NextButton_Compressed.mp3 */; };
 		C9C6E9DD2B735E420063BB84 /* SelectButton_simple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9C6E9DC2B735E420063BB84 /* SelectButton_simple.mp3 */; };
 		C9C6E9DF2B7369C20063BB84 /* Sound_SendMessage01_Compressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9C6E9DE2B7369C20063BB84 /* Sound_SendMessage01_Compressed.mp3 */; };
@@ -32,7 +45,20 @@
 /* Begin PBXFileReference section */
 		C9650A232B7297700067C44A /* RenameGroup01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RenameGroup01.mp3; sourceTree = "<group>"; };
 		C9650A252B7298000067C44A /* RenameGroup02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RenameGroup02.mp3; sourceTree = "<group>"; };
+		C9662F212BB2BE0200D7B5B6 /* clicktest-01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clicktest-01.mp3"; sourceTree = "<group>"; };
+		C9662F232BB2C2C800D7B5B6 /* clicktest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clicktest.mp3; sourceTree = "<group>"; };
 		C983F1402B7211D8003B62CE /* Zoom_Click_3rdVersion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Zoom_Click_3rdVersion.mp3; sourceTree = "<group>"; };
+		C98B0D8E2B79202500A50D92 /* PeerNotificationSound02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PeerNotificationSound02.mp3; sourceTree = "<group>"; };
+		C9969FC12B7B3B1B0052A598 /* ChatOptions_TrayMenu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChatOptions_TrayMenu.mp3; sourceTree = "<group>"; };
+		C99AB4F32B8893EE00040C1D /* OnboardingFlow_EarthAnimation_Part1_Compressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OnboardingFlow_EarthAnimation_Part1_Compressed.mp3; sourceTree = "<group>"; };
+		C99AB4F42B8893EE00040C1D /* OnboardingFlow_EarthAnimation_Part2_Compressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OnboardingFlow_EarthAnimation_Part2_Compressed.mp3; sourceTree = "<group>"; };
+		C99AB4F52B8893EE00040C1D /* CustomHapticsTest.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CustomHapticsTest.ahap; sourceTree = "<group>"; };
+		C9A989782B79F1CB008F0888 /* PeerNotificationSound02_Mix01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PeerNotificationSound02_Mix01.mp3; sourceTree = "<group>"; };
+		C9A9897A2B79F2C6008F0888 /* PeerNotificationSound02_Mix02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PeerNotificationSound02_Mix02.mp3; sourceTree = "<group>"; };
+		C9A9897C2B79F416008F0888 /* PeerNotificationSound02_Mix03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PeerNotificationSound02_Mix03.mp3; sourceTree = "<group>"; };
+		C9A9897E2B79F595008F0888 /* PeerNotificationSound02_Mix04.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PeerNotificationSound02_Mix04.mp3; sourceTree = "<group>"; };
+		C9A989802B79F6C6008F0888 /* PeerNotificationSound03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PeerNotificationSound03.mp3; sourceTree = "<group>"; };
+		C9AB90432B90A6FA00B8B64E /* moji_send.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = moji_send.mp3; sourceTree = "<group>"; };
 		C9C6E9DA2B735C810063BB84 /* NextButton_Compressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NextButton_Compressed.mp3; sourceTree = "<group>"; };
 		C9C6E9DC2B735E420063BB84 /* SelectButton_simple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SelectButton_simple.mp3; sourceTree = "<group>"; };
 		C9C6E9DE2B7369C20063BB84 /* Sound_SendMessage01_Compressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound_SendMessage01_Compressed.mp3; sourceTree = "<group>"; };
@@ -65,6 +91,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C99AB4F22B8893C300040C1D /* AHAP */ = {
+			isa = PBXGroup;
+			children = (
+				C99AB4F52B8893EE00040C1D /* CustomHapticsTest.ahap */,
+				C99AB4F32B8893EE00040C1D /* OnboardingFlow_EarthAnimation_Part1_Compressed.mp3 */,
+				C99AB4F42B8893EE00040C1D /* OnboardingFlow_EarthAnimation_Part2_Compressed.mp3 */,
+			);
+			path = AHAP;
+			sourceTree = "<group>";
+		};
 		C9E84B7C2B71313C002213D3 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +120,7 @@
 		C9E84B872B71313C002213D3 /* Audio_haptic_testing_app */ = {
 			isa = PBXGroup;
 			children = (
+				C99AB4F22B8893C300040C1D /* AHAP */,
 				C9E84B9C2B71347B002213D3 /* Sound */,
 				C9E84B882B71313C002213D3 /* AppDelegate.swift */,
 				C9E84B8A2B71313C002213D3 /* SceneDelegate.swift */,
@@ -99,13 +136,21 @@
 		C9E84B9C2B71347B002213D3 /* Sound */ = {
 			isa = PBXGroup;
 			children = (
+				C98B0D8E2B79202500A50D92 /* PeerNotificationSound02.mp3 */,
 				C9C6E9E22B736AB30063BB84 /* Sound_RecieveMessage01.mp3 */,
 				C9C6E9E42B736AB30063BB84 /* Sound_RecieveMessage02.mp3 */,
 				C9C6E9E32B736AB30063BB84 /* Sound_RecieveMessage03.mp3 */,
+				C9A989782B79F1CB008F0888 /* PeerNotificationSound02_Mix01.mp3 */,
 				C9C6E9DE2B7369C20063BB84 /* Sound_SendMessage01_Compressed.mp3 */,
 				C9C6E9E02B7369C90063BB84 /* Sound_SendMessage03_Compressed.mp3 */,
+				C9A9897C2B79F416008F0888 /* PeerNotificationSound02_Mix03.mp3 */,
+				C9A9897E2B79F595008F0888 /* PeerNotificationSound02_Mix04.mp3 */,
+				C9A9897A2B79F2C6008F0888 /* PeerNotificationSound02_Mix02.mp3 */,
+				C9A989802B79F6C6008F0888 /* PeerNotificationSound03.mp3 */,
 				C9C6E9EA2B73B1280063BB84 /* AddToChat_Check.mp3 */,
+				C9AB90432B90A6FA00B8B64E /* moji_send.mp3 */,
 				C9C6E9EC2B73B12F0063BB84 /* AddToChat_UnCheck.mp3 */,
+				C9969FC12B7B3B1B0052A598 /* ChatOptions_TrayMenu.mp3 */,
 				C9C6E9DC2B735E420063BB84 /* SelectButton_simple.mp3 */,
 				C9C6E9E82B736D4C0063BB84 /* SelectButton_simple02.mp3 */,
 				C9C6E9DA2B735C810063BB84 /* NextButton_Compressed.mp3 */,
@@ -113,6 +158,8 @@
 				C9650A232B7297700067C44A /* RenameGroup01.mp3 */,
 				C983F1402B7211D8003B62CE /* Zoom_Click_3rdVersion.mp3 */,
 				C9E62C092B716EF800B976E6 /* Zoom_Click_2ndVersion.mp3 */,
+				C9662F212BB2BE0200D7B5B6 /* clicktest-01.mp3 */,
+				C9662F232BB2C2C800D7B5B6 /* clicktest.mp3 */,
 			);
 			path = Sound;
 			sourceTree = "<group>";
@@ -176,20 +223,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9650A262B7298000067C44A /* RenameGroup02.mp3 in Resources */,
+				C9A9897D2B79F416008F0888 /* PeerNotificationSound02_Mix03.mp3 in Resources */,
 				C9E84B952B71313D002213D3 /* LaunchScreen.storyboard in Resources */,
+				C9AB90442B90A6FA00B8B64E /* moji_send.mp3 in Resources */,
 				C9C6E9E62B736AB30063BB84 /* Sound_RecieveMessage03.mp3 in Resources */,
 				C9C6E9DD2B735E420063BB84 /* SelectButton_simple.mp3 in Resources */,
+				C9A9897B2B79F2C6008F0888 /* PeerNotificationSound02_Mix02.mp3 in Resources */,
 				C9C6E9ED2B73B12F0063BB84 /* AddToChat_UnCheck.mp3 in Resources */,
 				C9C6E9E12B7369C90063BB84 /* Sound_SendMessage03_Compressed.mp3 in Resources */,
+				C9662F222BB2BE0200D7B5B6 /* clicktest-01.mp3 in Resources */,
 				C983F1412B7211D8003B62CE /* Zoom_Click_3rdVersion.mp3 in Resources */,
+				C9A989812B79F6C6008F0888 /* PeerNotificationSound03.mp3 in Resources */,
 				C9C6E9E52B736AB30063BB84 /* Sound_RecieveMessage01.mp3 in Resources */,
 				C9C6E9DF2B7369C20063BB84 /* Sound_SendMessage01_Compressed.mp3 in Resources */,
+				C99AB4F82B8893EE00040C1D /* CustomHapticsTest.ahap in Resources */,
 				C9E84B922B71313D002213D3 /* Assets.xcassets in Resources */,
 				C9650A242B7297700067C44A /* RenameGroup01.mp3 in Resources */,
+				C9662F242BB2C2C800D7B5B6 /* clicktest.mp3 in Resources */,
+				C99AB4F72B8893EE00040C1D /* OnboardingFlow_EarthAnimation_Part2_Compressed.mp3 in Resources */,
+				C9969FC22B7B3B1B0052A598 /* ChatOptions_TrayMenu.mp3 in Resources */,
+				C9A989792B79F1CB008F0888 /* PeerNotificationSound02_Mix01.mp3 in Resources */,
 				C9C6E9EB2B73B1280063BB84 /* AddToChat_Check.mp3 in Resources */,
 				C9E62C0A2B716EF800B976E6 /* Zoom_Click_2ndVersion.mp3 in Resources */,
+				C98B0D8F2B79202500A50D92 /* PeerNotificationSound02.mp3 in Resources */,
 				C9C6E9DB2B735C810063BB84 /* NextButton_Compressed.mp3 in Resources */,
+				C9A9897F2B79F595008F0888 /* PeerNotificationSound02_Mix04.mp3 in Resources */,
 				C9C6E9E72B736AB30063BB84 /* Sound_RecieveMessage02.mp3 in Resources */,
+				C99AB4F62B8893EE00040C1D /* OnboardingFlow_EarthAnimation_Part1_Compressed.mp3 in Resources */,
 				C9E84B902B71313C002213D3 /* Main.storyboard in Resources */,
 				C9C6E9E92B736D4C0063BB84 /* SelectButton_simple02.mp3 in Resources */,
 			);

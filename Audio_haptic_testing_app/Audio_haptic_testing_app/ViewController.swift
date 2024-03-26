@@ -7,11 +7,14 @@
 
 import UIKit
 import AVFoundation
+import CoreHaptics
 
 class ViewController: UIViewController {
     
+    var engine: CHHapticEngine?
+    
     var sound = AVAudioPlayer()
-    let testSounds = ["Zoom_Click_3rdVersion", "Zoom_Click_2ndVersion", "RenameGroup01", "RenameGroup02", "NextButton_Compressed", "SelectButton_simple", "SelectButton_simple02", "Sound_SendMessage01_Compressed", "Sound_SendMessage03_Compressed", "Sound_RecieveMessage01", "Sound_RecieveMessage02", "Sound_RecieveMessage03", "AddToChat_Check", "AddToChat_UnCheck" ]
+    let testSounds = ["Zoom_Click_3rdVersion", "Zoom_Click_2ndVersion", "clicktest", "RenameGroup01", "RenameGroup02", "NextButton_Compressed", "SelectButton_simple", "SelectButton_simple02", "Sound_SendMessage01_Compressed", "Sound_SendMessage03_Compressed", "Sound_RecieveMessage01", "Sound_RecieveMessage02", "Sound_RecieveMessage03", "AddToChat_Check", "AddToChat_UnCheck", "PeerNotificationSound02", "PeerNotificationSound02_Mix01", "PeerNotificationSound02_Mix02", "PeerNotificationSound02_Mix04", "PeerNotificationSound03", "ChatOptions_TrayMenu", "moji_send"]
     var soundInList = ""
     
     let hapticType = ["light impact", "medium impact", "heavy impact", "soft", "rigid", "success notification", "error notification", "warning notification",
@@ -46,9 +49,67 @@ class ViewController: UIViewController {
         
         hapticsPickerView.tag = 1
         soundPickerView.tag = 2
+        
+        createEngine()
     }
-
-
+    
+    
+    
+    /// - Tag: CreateEngine
+    func createEngine() {
+        
+        
+        // Create and configure a haptic engine.
+        do {
+            // Associate the haptic engine with the default audio session
+            // to ensure the correct behavior when playing audio-based haptics.
+            let audioSession = AVAudioSession.sharedInstance()
+            engine = try CHHapticEngine(audioSession: audioSession)
+        } catch let error {
+            print("Engine Creation Error: \(error)")
+        }
+        
+        guard let engine = engine else {
+            print("Failed to create engine!")
+            return
+        }
+        
+        // The stopped handler alerts you of engine stoppage due to external causes.
+        engine.stoppedHandler = { reason in
+            print("The engine stopped for reason: \(reason.rawValue)")
+            switch reason {
+            case .audioSessionInterrupt:
+                print("Audio session interrupt")
+            case .applicationSuspended:
+                print("Application suspended")
+            case .idleTimeout:
+                print("Idle timeout")
+            case .systemError:
+                print("System error")
+            case .notifyWhenFinished:
+                print("Playback finished")
+            case .gameControllerDisconnect:
+                print("Controller disconnected.")
+            case .engineDestroyed:
+                print("Engine destroyed.")
+            @unknown default:
+                print("Unknown error")
+            }
+        }
+ 
+        // The reset handler provides an opportunity for your app to restart the engine in case of failure.
+        engine.resetHandler = {
+            // Try restarting the engine.
+            print("The engine reset --> Restarting now!")
+            do {
+                try self.engine?.start()
+            } catch {
+                print("Failed to restart the engine: \(error)")
+            }
+        }
+    }
+    
+    
     @IBAction func testButton(_ sender: UIButton) {
         playSound()
         playHaptic()

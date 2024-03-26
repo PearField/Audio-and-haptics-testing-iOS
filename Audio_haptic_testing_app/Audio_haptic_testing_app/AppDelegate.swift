@@ -6,14 +6,20 @@
 //
 
 import UIKit
+import CoreHaptics
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
+    var supportsHaptics: Bool = false
+    
+    /// - Tag: CheckHapticCompatibility
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Check if the device supports haptics.
+        let hapticCapability = CHHapticEngine.capabilitiesForHardware()
+        supportsHaptics = hapticCapability.supportsHaptics
+        
         return true
     }
 
